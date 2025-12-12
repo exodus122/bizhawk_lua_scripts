@@ -1,0 +1,74 @@
+SystemID N64
+1EF672	w	h	1	RDRAM	Entrance (DA00)
+1EF67C	w	u	1	RDRAM	Time of Day
+1EF6A6	w	u	1	RDRAM	Health
+1EF6A9	b	u	1	RDRAM	Magic Amount
+1EF6B0	b	u	1	RDRAM	Have Magic = 1
+1EF6BC	b	u	1	RDRAM	B Item - Human
+1EF6E0	b	u	1	RDRAM	Slot - Ocarina(0)
+1EF6E6	b	u	1	RDRAM	Slot - Bombs (6)
+1EF6E7	b	u	1	RDRAM	Slot - Bombchus (7)
+1EF6E8	b	u	1	RDRAM	Slot - Deku Stick (8)
+1EF6EF	b	u	1	RDRAM	Slot - Hookshot (15)
+1EF6F0	b	u	1	RDRAM	Slot - GFS (16)
+1EF6F2	b	u	1	RDRAM	Slot - Bottle 1 (18)
+1EF6F3	b	u	1	RDRAM	Slot - Bottle 2 (24 = milk)
+1EF6FD	b	u	1	RDRAM	Slot - Deku Mask(50)
+1EF703	b	u	1	RDRAM	Slot - Goron Mask(51)
+1EF709	b	u	1	RDRAM	Slot - Zora Mask(52)
+1EF711	b	u	1	RDRAM	Ammo - Arrows
+1EF716	b	u	1	RDRAM	Ammo - Bombs
+1EF717	b	u	1	RDRAM	Ammo - Bombchus
+1EF718	b	u	1	RDRAM	Ammo - Sticks
+1EF72B	b	u	1	RDRAM	Bomb Bag/Quiver = 9
+1EF72E	b	u	1	RDRAM	Songs
+1EF73D	b	u	1	RDRAM	Small Keys - STT
+1F3318	d	u	1	RDRAM	Game State (0=game, 1=title, 2=file select, 3=credits, 4=owlsave)
+1F35B5	b	u	1	RDRAM	Switch/Hold 0/1
+3E6B20	b	u	1	RDRAM	Global Context START
+3E6BD0	d	h	1	RDRAM	Scene segment ptr
+3E6C00	d	f	1	RDRAM	Camera X
+3E6C04	d	f	1	RDRAM	Camera Y
+3E6C08	d	f	1	RDRAM	Camera Z
+3E7350	b	u	1	RDRAM	Collision Ctx Start
+3E7350	d	h	1	RDRAM	CollisionHeader ptr
+3E7390	d	h	1	RDRAM	Static lookupTbl ptr
+3E73A0	b	u	1	RDRAM	DynaCollisionContext start
+3E8790	d	h	1	RDRAM	Dyna CollisionPoly* polyList
+3E87A0	d	h	1	RDRAM	DynaSSNodeList polyNodes tbl ptr
+3E87A4	d	u	1	RDRAM	DynaPoly node count
+3E8978	d	h	1	RDRAM	SwitchFlags
+3E897C	d	h	1	RDRAM	Switch Flags 2
+3E8980	d	h	1	RDRAM	Switch Flags 3
+3E8984	d	h	1	RDRAM	Switch Flags 4
+3E8988	d	h	1	RDRAM	Chest Flags
+3E898C	d	h	1	RDRAM	Room Clear Flags
+3E8990	d	h	1	RDRAM	Room Clear Temp Flags
+3E8A4C	b	u	1	RDRAM	CS State - Gain Control = 3
+3FF200	b	u	1	RDRAM	Current Room
+3FF395	b	u	1	RDRAM	Warp Trigger
+3FF39A	w	h	1	RDRAM	Next Entrance
+3FFDB0	d	h	1	RDRAM	!   Player START
+3FFDB8	d	f	1	RDRAM	X Coord (col)
+3FFDBC	d	f	1	RDRAM	Y Coord (col)
+3FFDC0	d	f	1	RDRAM	Z Coord (col)
+3FFDD4	d	f	1	RDRAM	X Coord
+3FFDD8	d	f	1	RDRAM	Y Coord
+3FFDDC	d	f	1	RDRAM	Z Coord
+3FFE18	d	f	1	RDRAM	Y Velocity
+3FFE2C	d	h	1	RDRAM	Wall Poly
+3FFE30	d	h	1	RDRAM	Floor Poly
+3FFE6E	w	s	1	RDRAM	Angle
+400025	b	u	1	RDRAM	Movement Flags
+400820	b	u	1	RDRAM	States - Lunge=64
+400880	d	f	1	RDRAM	Linear Velocity
+400884	w	h	1	RDRAM	Movement Angle
+40088B	b	u	1	RDRAM	ISG
+40088C	w	u	1	RDRAM	Slash Extension
+4008D9	b	u	1	RDRAM	Lit Stick Timer
+5AC9F2	w	u	1	RDRAM	neg sub - node id for clip wall (461-486)
+5AD014	w	u	1	RDRAM	neg sub - clip wall poly id
+5AD018	w	u	1	RDRAM	pos sub - clip wall poly id
+5AD7D4	w	u	1	RDRAM	neg sub - right wall poly id
+5AD7E0	w	u	1	RDRAM	pos sub - right wall poly id
+

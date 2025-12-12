@@ -1,0 +1,59 @@
+SystemID 3DS
+05E1E840	b	u	0	FCRAM	--- Global Context START (0871E840)
+05E1F2D8	d	h	0	FCRAM	--- Col Ctx START
+05E24440	b	u	0	FCRAM	Age Setter (0=Adult, 1=Child)
+05E2445C	d	h	0	FCRAM	Exit List Ptr
+05E2446D	b	u	0	FCRAM	Warp Activator (non-zero)
+05E24472	w	u	0	FCRAM	Next Entrance (dec)
+05E24472	w	h	0	FCRAM	Next Entrance (hex)
+06FF4010	b	u	0	FCRAM	--- Player Actor START (2900000)
+06FF4018	d	f	0	FCRAM	X Pos (col)
+06FF401C	d	f	0	FCRAM	Y Pos (col)
+06FF4020	d	f	0	FCRAM	Z Pos (col)
+06FF4038	d	f	0	FCRAM	X Pos
+06FF403C	d	f	0	FCRAM	Y Pos
+06FF4040	d	f	0	FCRAM	Z Pos
+06FF4074	d	f	0	FCRAM	Y Velocity
+06FF4088	d	h	0	FCRAM	wallPoly
+06FF408C	d	h	0	FCRAM	floorPoly
+06FF40CE	w	u	0	FCRAM	Angle (dec)
+06FF40CE	w	h	0	FCRAM	Angle (hex)
+06FF41BA	b	u	0	FCRAM	Item in Hand
+06FF5234	d	h	0	FCRAM	Held Actor Ptr
+06FF52BC	b	u	0	FCRAM	Get Item Value
+06FF52C0	d	h	0	FCRAM	Grab Actor Ptr
+06FF622C	d	f	0	FCRAM	Linear Velocity
+06FF6237	b	u	0	FCRAM	ISG Flag
+06FF6258	w	u	0	FCRAM	Deku Stick Timer
+06FF6A60	b	u	0	FCRAM	--- Player Actor END
+077C6958	w	h	0	FCRAM	Entrance (hex)
+077C6958	w	u	0	FCRAM	Entrance (dec)
+077C695C	w	u	0	FCRAM	Age
+077C6960	d	u	0	FCRAM	Cutscene Number
+077C699A	w	u	0	FCRAM	Hearts
+077C699C	w	u	0	FCRAM	Health
+077C699E	w	u	0	FCRAM	Magic Amount
+077C69A0	w	u	0	FCRAM	Rupees
+077C69A6	w	u	0	FCRAM	Magic Meter activator
+077C69D8	b	u	0	FCRAM	B Button Item
+077C69E4	b	u	0	FCRAM	Slot - Stick (0)
+077C69E5	b	u	0	FCRAM	Slot - Nut (1)
+077C69E6	b	u	0	FCRAM	Slot - Bomb (2)
+077C69EB	b	u	0	FCRAM	Slot - Ocarina (7/8)
+077C69ED	b	u	0	FCRAM	Slot - Hookshot (10/11)
+077C69FE	b	u	0	FCRAM	Amount - Stick
+077C69FF	b	u	0	FCRAM	Amount - Nut
+077C6A00	b	u	0	FCRAM	Amount - Bomb
+077C6A01	b	u	0	FCRAM	Amount - Arrows
+077C6A0E	b	u	0	FCRAM	Equip- Swords/Shields (51 = main, 17=child, 119=all)
+077C6A0F	b	u	0	FCRAM	Equip- Tunics/Boots (119 = all, 17=default)
+077C6A10	b	u	0	FCRAM	Equipment- Bomb Bag/Quiver/Strength
+077C6A11	b	u	0	FCRAM	Equipment- Scale/Wallet/Strength
+077C6A12	b	u	0	FCRAM	Equipment- Stick/Nut/Bullet Bag Capacity
+077C6A14	b	u	0	FCRAM	Quest- Medallions, Minuet, Bolero
+077C6A15	b	u	0	FCRAM	Quest- Songs
+077C6A16	b	u	0	FCRAM	Quest- Stones, Gerudo Card, Agony
+077C6A17	b	u	0	FCRAM	Quest- Heart Pieces
+077C6A34	b	u	0	FCRAM	Small Keys- BotW
+077C7EC7	b	u	0	FCRAM	Temp B
+

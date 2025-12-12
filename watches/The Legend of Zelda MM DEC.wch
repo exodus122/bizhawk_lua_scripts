@@ -1,0 +1,40 @@
+SystemID 3DS
+05B53B20	b	u	0	FCRAM	-- Global Context usual start (08041B20, 24EE000)
+05B53C5D	b	u	0	FCRAM	Framerate Divisor?
+05B60049	b	u	0	FCRAM	Warp Trigger
+05B6004E	w	h	0	FCRAM	Next Entrance
+06925C88	d	f	0	FCRAM	x home
+06925C8C	d	f	0	FCRAM	y home
+06925C90	d	f	0	FCRAM	z home
+06925CA4	d	f	0	FCRAM	x pos
+06925CA8	d	f	0	FCRAM	y pos
+06925CAC	d	f	0	FCRAM	z pos
+06925CE8	d	f	0	FCRAM	Y Velocity
+06925D42	w	u	0	FCRAM	Angle
+06925D42	w	h	0	FCRAM	Angle (hex)
+06925DAC	d	h	0	FCRAM	Held Actor Ptr
+06937AB0	d	f	0	FCRAM	Linear Velocity
+0752FD6C	d	h	0	FCRAM	Player Ptr
+0752FFA8	d	h	0	FCRAM	Player Ptr
+0754D890	d	h	0	FCRAM	Global Context Ptr (24EE000)
+0765B1B0	b	u	0	FCRAM	-- Save Context START
+0765B1F4	w	h	0	FCRAM	Cutscene Number?
+0765B1F8	w	u	0	FCRAM	Time of Day
+0765B314	w	u	0	FCRAM	Health
+0765B318	w	u	0	FCRAM	Rupee Count
+0765B32A	b	u	0	FCRAM	B Button Item (77=kokiri)
+0765B354	b	u	0	FCRAM	Slot 0 - Ocarina (0)
+0765B355	b	u	0	FCRAM	Slot 1 - Bow (1)
+0765B35A	b	u	0	FCRAM	Slot 6 - Bombs (6)
+0765B371	b	u	0	FCRAM	Mask Slot - Deku (50)
+0765B396	b	u	0	FCRAM	Ammo - Bombs
+0765B391	b	u	0	FCRAM	Ammo - Bow
+069CE4D4	d	f	0	FCRAM	X
+069CE4D8	d	f	0	FCRAM	y
+069CE4DC	d	f	0	FCRAM	z
+069CE4B8	d	f	0	FCRAM	
+069CE4BC	d	f	0	FCRAM	
+069CE4C0	d	f	0	FCRAM	
+069CE572	w	h	0	FCRAM	Angle (hex)
+069E02E0	d	f	0	FCRAM	linear velocity
+

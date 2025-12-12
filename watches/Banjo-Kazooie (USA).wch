@@ -1,0 +1,60 @@
+SystemID N64
+0F85D0	w	u	1	RDRAM	
+0F85D0	d	h	1	RDRAM	Vtx List start (count 16F4)
+0F85D2	w	u	1	RDRAM	
+0F85D4	w	u	1	RDRAM	
+10F50F	b	h	1	RDRAM	Vtx list last byte
+13E028	d	h	1	RDRAM	seems like vtx list start
+160A00	d	h	1	RDRAM	Screw behavior struct start (also prop struct ptr)
+1814C0	d	h	1	RDRAM	Screw Prop start
+1814C4	w	s	1	RDRAM	Screw X (short)
+18C460	d	f	1	RDRAM	? Y Pos
+18C480	d	f	1	RDRAM	Y Pos
+18C48E	b	u	1	RDRAM	Floor object state
+1A28A0	w	h	1	RDRAM	Dyna Vtx List start
+1BC354	w	h	1	RDRAM	Dyna Vtx count
+1D40C8	d	h	1	RDRAM	Screw VtxList Start
+1E3698	d	h	1	RDRAM	Screw Actor Start (also behavior struct ptr)
+1E369C	d	f	1	RDRAM	Screw X
+1E36A0	d	f	1	RDRAM	Screw Y
+1E36A4	d	f	1	RDRAM	Screw Z
+1E36A8	b	u	1	RDRAM	Screw state
+275618	d	u	1	RDRAM	gGlobalTimer
+27B3D8	d	h	1	RDRAM	
+27B5F4	d	h	1	RDRAM	
+2806FE	w	h	1	RDRAM	banjo's y pos (short)
+36E560	d	h	1	RDRAM	Object Array Ptr (first word is u32 for numObjects loaded)
+36E7C0	d	h	1	RDRAM	modelCacheArrayPtr
+37C1F8	d	f	1	RDRAM	Wall Detection height?
+37C1FC	d	f	1	RDRAM	Wall Detection radius?
+37C200	d	h	1	RDRAM	Floor Object Ptr
+37C4B8	d	f	1	RDRAM	X Velocity
+37C4BC	d	f	1	RDRAM	Y Velocity
+37C4C0	d	f	1	RDRAM	Z Velocity
+37C4E8	d	f	1	RDRAM	Gravity
+37C4F0	d	f	1	RDRAM	Linear Velocity
+37C5A0	d	f	1	RDRAM	BK - X Pos
+37C5A4	d	f	1	RDRAM	BK - Y pos
+37C5A8	d	f	1	RDRAM	BK - Z Pos
+37C690	d	f	1	RDRAM	Facing Angle
+37C694	d	f	1	RDRAM	Moving Angle
+37EAA8	d	f	1	RDRAM	Vtx1 X (D_8037EAA8)
+37EAAC	d	f	1	RDRAM	Vtx1 Y
+37EAB0	d	f	1	RDRAM	Vtx1 Z
+37EAB4	d	f	1	RDRAM	Vtx2 X
+37EAB8	d	f	1	RDRAM	Vtx2 Y
+37EABC	d	f	1	RDRAM	Vtx2 Z
+37EAC0	d	f	1	RDRAM	Vtx3 X
+37EAC4	d	f	1	RDRAM	Vtx3 Y
+37EAC8	d	f	1	RDRAM	Vtx3 Z
+37EAD0	d	f	1	RDRAM	
+37EAD0	d	h	1	RDRAM	Start Struct_cor2_5FD90_0
+37EAD4	d	f	1	RDRAM	
+37EAD8	d	f	1	RDRAM	
+38087C	d	h	1	RDRAM	End Struct_cor2_5FD90_0
+382350	d	h	1	RDRAM	mapModel Object Start
+382378	d	h	1	RDRAM	CC MapModelDescriptionPtr
+383728	d	h	1	RDRAM	modelRendervertexList
+389FE0	d	h	1	RDRAM	Clanker Ptr to dyna vtxs
+389FE4	d	h	1	RDRAM	Clanker Ptr to dyna vtxs Alt
+

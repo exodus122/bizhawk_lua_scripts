@@ -1,0 +1,69 @@
+SystemID N64
+02F9B8	d	h	1	RDRAM	ground clip = 1000005B
+11A5D2	w	h	1	RDRAM	Entrance
+11A5DC	w	u	1	RDRAM	Time
+11A600	w	u	1	RDRAM	Health
+11A603	b	u	1	RDRAM	Magic amount
+11A604	w	u	1	RDRAM	Rupees
+11A60A	b	u	1	RDRAM	Have Magic = 1
+11A638	b	u	1	RDRAM	B Button Item
+11A640	b	u	1	RDRAM	Equipped Tunic/Boots
+11A646	b	u	1	RDRAM	Slot - Bomb (2)
+11A647	b	u	1	RDRAM	Slot - Bow (3)
+11A64C	b	u	1	RDRAM	Slot - Chus (9)
+11A64D	b	u	1	RDRAM	Slot - Hook (11)
+11A653	b	u	1	RDRAM	Slot - Hammer (17)
+11A65E	b	u	1	RDRAM	Count - Bomb
+11A65F	b	u	1	RDRAM	Count - Arrows
+11A664	b	u	1	RDRAM	Count - Chus
+11A66C	b	u	1	RDRAM	Equipment - TunicBoots
+11A66D	b	u	1	RDRAM	Equipment - SwordShields
+11A673	b	u	1	RDRAM	Equip - BombBag/Quiver
+11A675	b	u	1	RDRAM	SoT,Storm,Stones
+11A676	b	u	1	RDRAM	Songs
+11A677	b	u	1	RDRAM	Meds/Min/Bol
+11A68F	b	u	1	RDRAM	Small Keys - Forest
+11B4EC	d	h	1	RDRAM	inf_table
+1C8758	d	f	1	RDRAM	Velocity xz
+1CA1C8	d	h	1	RDRAM	Current- Switch (water lowered water- 10010000)
+1CA1CC	d	h	1	RDRAM	Current- TempSwitch
+1CA1DC	d	h	1	RDRAM	Current-RoomClear
+1CA20C	b	u	1	RDRAM	CS State (3 = break free)
+1D887C	b	u	1	RDRAM	text mode
+1D8880	b	u	1	RDRAM	Text content start
+1D8964	w	u	1	RDRAM	lastSongPlayed
+1D8969	b	u	1	RDRAM	Song Learning
+1DA15C	b	u	1	RDRAM	Room
+1DA288	b	u	1	RDRAM	Age Next
+1DA2B5	b	u	1	RDRAM	Warp
+1DA2BA	w	h	1	RDRAM	Entrance Next
+1DAA38	d	f	1	RDRAM	X coord (col)
+1DAA3C	d	f	1	RDRAM	Y coord (col)
+1DAA40	d	f	1	RDRAM	Z coord (col)
+1DAA54	d	f	1	RDRAM	X coord
+1DAA58	d	f	1	RDRAM	Y coord
+1DAA5C	d	f	1	RDRAM	Z coord
+1DAA90	d	f	1	RDRAM	Y Velocity
+1DAAA4	d	h	1	RDRAM	Wall Poly
+1DAAA8	d	h	1	RDRAM	Floor Poly
+1DAAAC	b	u	1	RDRAM	wallBgId
+1DAAAD	b	u	1	RDRAM	floorBgId
+1DAAB8	w	u	1	RDRAM	bgCheckFlags
+1DAAE6	w	h	1	RDRAM	Angle
+1DAB6F	b	u	1	RDRAM	Current Boots
+1DAB72	b	u	1	RDRAM	Item in Hand
+1DAE54	b	u	1	RDRAM	Get Item ID
+1DB258	d	f	1	RDRAM	Linear Velocity
+1DB25C	w	h	1	RDRAM	Movement Angle
+1DB263	b	u	1	RDRAM	ISG
+264FFC	w	u	1	RDRAM	fire 1st poly id
+264FFE	w	u	1	RDRAM	2nd node id - no change
+265004	w	u	1	RDRAM	2nd poly id
+265006	w	u	1	RDRAM	3rd node id - no
+265DE4	w	u	1	RDRAM	3rd poly id
+26F6C4	d	h	1	RDRAM	fire hammer wall poly subdiv
+3A9C88	d	f	1	RDRAM	ceilingCheckHeight adult
+3A9CC0	d	f	1	RDRAM	wallCheckRadius adult
+3A9D5C	d	f	1	RDRAM	ceilingCheckHeight child
+3A9D94	d	f	1	RDRAM	wallCheckRadius child
+
