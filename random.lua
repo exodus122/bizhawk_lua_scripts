@@ -1,0 +1,6 @@
+console.clear()
+savestate.loadslot(2)
+math.randomseed(os.time())
+math.random()
+print(math.random())
+print(math.random())
